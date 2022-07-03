@@ -1,0 +1,245 @@
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.title{
+    text-align: center;
+    font-size: 2.3rem;
+    margin-top: 30px;
+}
+.nav-bar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* padding: 20px 20px 20px 50px; */
+    background-color: lightskyblue;
+    /* margin: 0; */
+    flex-direction: row;
+    position: fixed;
+    z-index: 1;
+}
+.left {
+    width: 60%;
+    margin: 0 20px 0 0;
+}
+.right {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: stretch;
+}
+.menu{
+    font-size: 1.6rem;
+
+}
+h3{
+    font-size: 3rem;
+    margin-left: 40px;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.avtar{
+    position: relative;
+    border-radius: 100%;
+    min-height: 450px;
+    min-width: 450px;
+}
+img{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    left: 500px;
+    right: 0;
+    background-position: center;
+    background-size: cover;
+    border-style: inset;
+}
+.text{
+    width: 50%;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+}
+.about{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.about-text{
+    max-width: 100%;
+}
+.about-text p{
+    text-align: justify;
+}
+.section-title{
+    color: black;
+    font-size: 2.7rem;
+}
+.section-title span{
+    color: crimson;
+    font-size: 2.3rem;
+}
+.about .about-text p {
+    font-size: 2rem;
+    margin: 20px;
+}
+.about .about-text .btn{
+    margin-bottom: 50px;
+}
+.about .about-text ul{
+    text-align: left;
+    font-size: 1.7rem;
+    margin: 20px;
+}
+.about .about-text ul li{
+    list-style: none;
+    text-align: center;
+    font-size: 1.5rem;
+}
+a{
+    display: inline-block;
+    padding: 5px 5px;
+    color: crimson;
+    background-color: transparent;
+    /* border: 2px solid crimson; */
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* letter-spacing: 0.15rem; */
+    /* margin-top: 30px; */
+    transition: .3s ease background-color;
+    transition-property: background-color, color;
+}
+a:hover{
+    color: white;
+    background-color: crimson;
+}
+
+/* Work */
+.work-title{
+    color: black;
+    text-align: center;
+/* margin-bottom: 10px; */
+}
+.work{
+    position: relative;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px 20px;
+    margin: auto;
+    width: 950px;
+}
+.title{
+    color: white;
+    font-size: 1.6rem;
+}
+/* .work-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+.work-text{   
+    /* flex-basis: 80%; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 0 10px 10px;
+    background-color: black; 
+    border-radius: 10px;
+    background-size: cover;
+    margin-bottom: 30px;
+    position: relative;
+}
+.work-text p{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 5px;
+    /* letter-spacing: 0.05rem; */
+}
+.work-text ul{
+    color: white;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* Contatc */
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+}
+.con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: #f9f9f9; */
+}
+.con-title{
+    color: black;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+.head-contact{
+    text-align: center;
+    margin-top: 20px;
+}
+.contact-title{
+    width: 25%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 1.5rem;
+}
+.contact-title p{
+    padding-top: 10px;
+}
+
+/* Footer */
+footer{
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    background-color: aqua;
+    /* width: 100%; */
+    height: 60px;
+}
+footer p{
+    padding-top: 15px;
+}
